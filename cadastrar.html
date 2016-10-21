@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+	    <title>desafio</title>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<meta charset="utf-8">
+	</head>
+	
+	<body>
+	<div id="cabelho">
+	<button><a href="http://projetodesafio.esy.es/">Home</a></button>
+        <button><a href="cadastrar.html">Criar</a></button>	
+	<button><a href="id.html">Alterar</a></button>
+	<button><a href="listar.php"target="inframe">Listar</a></button>
+	<button><a href="deletar.php">Remover</a></button>
+        <button><a href="https://github.com/josuepedro/desafios.git"target="blank">Github</a></button>
+	</div>
+	<div id="cadast">
+
+	<center>cadastrar pipas</center></p>
+<form method="POST" action="cadastro.php" enctype="multiple/form-data">
+<label>cor:</label><input type="text" name="c" id="c"class="inp"></p>
+<label>tamanho:</label><input id="languagem"type="radio"name="languagem"value="pequeno"class="i"checked>pequeno</><input id="languagem"type="radio"name="languagem"value="medio"class="n">medio</><input id="languagem"type="radio"name="languagem"value="grande"class="n">grande</></p>
+<label>Preço:</label><input type="text" name="p" id="p"class="inp"></p>
+
+<label>foto:</label><input type="file" required name="arquivo"id="f"></p>
+	     
+
+<input type="submit" value="Cadastrar" id="ca" name="cadastrar">
+</form>
+	</div>
+        <iframe name="inframe"id="inframes">
+        </iframe>
+	</body>
+</html>
